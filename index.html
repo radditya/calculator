@@ -1,0 +1,766 @@
+<html>
+	<head>
+	<title>Calculator</title>
+	</head>
+	<body>
+		<marquee style="font-size: 25px">Kalkulator Luas & Volume by Raditya R.A & M.R Fauzi</marquee>
+		<FORM NAME="Calc">
+			<TABLE BORDER=10>
+				<TR>
+					<TD style="background-color: #FFCCCC">
+					<center>Kalkulator Luas Persegi (s x s)</center>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFCCCC">
+						Sisi 1 = <INPUT TYPE="text" NAME="Input" Size="32" style="background-color: #FFDBDB">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFCCCC">
+						Sisi 2 = <INPUT TYPE="text" NAME="Inpu" Size="32" style="background-color: #FFDBDB">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFCCCC">
+						Sisi1............................Sisi2<br>
+						 <INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calc.Input.value += '1'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calc.Input.value += '2'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calc.Input.value += '3'" style="background-color: #FFDBDB">
+						
+						 ..........<INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calc.Inpu.value += '1'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calc.Inpu.value += '2'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calc.Inpu.value += '3'" style="background-color: #FFDBDB">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calc.Input.value += '4'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calc.Input.value += '5'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calc.Input.value += '6'" style="background-color: #FFDBDB">
+						
+						 ..........<INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calc.Inpu.value += '4'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calc.Inpu.value += '5'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calc.Inpu.value += '6'" style="background-color: #FFDBDB">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calc.Input.value += '7'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calc.Input.value += '8'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calc.Input.value += '9'" style="background-color: #FFDBDB">
+					   
+						 ..........<INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calc.Inpu.value += '7'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calc.Inpu.value += '8'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calc.Inpu.value += '9'" style="background-color: #FFDBDB">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calc.Input.value = ''" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calc.Input.value += '0'" style="background-color: #FFDBDB">
+						 
+						 ...................<INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calc.Inpu.value = ''" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calc.Inpu.value += '0'" style="background-color: #FFDBDB">
+						 <br>
+						 <br>
+						 
+						 <INPUT TYPE="button" NAME="enter" VALUE=" Hasil " OnCLick="Calc.hasil.value = (Calc.Input.value*Calc.Inpu.value)" style="background-color: #FFDBDB">		
+						 <br>
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+						<INPUT TYPE="text" NAME="hasil" Size="40" style="background-color: #FFDBDB">
+						<br>
+					</TD>
+				</TR>
+			</TABLE>
+		</FORM>
+
+		<!Luas Segitiga>
+		<FORM NAME="Calcs">
+			<TABLE BORDER=10>
+				<TR>
+					<TD style="background-color: #FFDAB9">
+					<center>Kalkulator Luas Segitiga (0.5 x a x t)</center>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFDAB9">
+						Alas = <INPUT TYPE="text" NAME="Inputs" Size="33" style="background-color: #FFEFD5">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFDAB9">
+						Tinggi = <INPUT TYPE="text" NAME="Inputss" Size="31" style="background-color: #FFEFD5">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFDAB9">
+						Alas............................Tinggi<br>
+						 <INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calcs.Inputs.value += '1'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calcs.Inputs.value += '2'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calcs.Inputs.value += '3'" style="background-color: #FFEFD5">
+						 
+						 ..........<INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calcs.Inputss.value += '1'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calcs.Inputss.value += '2'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calcs.Inputss.value += '3'" style="background-color: #FFEFD5">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calcs.Inputs.value += '4'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calcs.Inputs.value += '5'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calcs.Inputs.value += '6'" style="background-color: #FFEFD5">
+						
+						 ..........<INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calcs.Inputss.value += '4'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calcs.Inputss.value += '5'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calcs.Inputss.value += '6'" style="background-color: #FFEFD5">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calcs.Inputs.value += '7'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calcs.Inputs.value += '8'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calcs.Inputs.value += '9'" style="background-color: #FFEFD5">
+					   
+						 ..........<INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calcs.Inputss.value += '7'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calcs.Inputss.value += '8'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calcs.Inputss.value += '9'" style="background-color: #FFEFD5">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calcs.Inputs.value = ''" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calcs.Inputs.value += '0'" style="background-color: #FFEFD5">
+						 
+						 ...................<INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calcs.Inputss.value = ''" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calcs.Inputss.value += '0'" style="background-color: #FFEFD5">
+						 <br>
+						 <br>
+						 
+						 <INPUT TYPE="button" NAME="enter" VALUE=" Hasil " OnCLick="Calcs.hasils.value = (0.5*Calcs.Inputs.value*Calcs.Inputss.value)" style="background-color: #FFEFD5">			
+						 <br>
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+						<INPUT TYPE="text" NAME="hasils" Size="40" style="background-color: #FFEFD5">
+						<br>
+					</TD>
+				</TR>
+			</TABLE>
+		</FORM>
+
+		<!Luas Lingkaran>
+		<FORM NAME="Calcl">
+			<TABLE BORDER=10>
+				<TR>
+					<TD style="background-color: #C9C9FF">
+					<center>Kalkulator Luas Lingkaran (phi x r<sup>2</sup>)</center>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #C9C9FF">
+						Jari-Jari = <INPUT TYPE="text" NAME="Inputl" Size="30" style="background-color: #DEDEFF">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #C9C9FF">
+						Jari-Jari<br>
+						 <INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calcl.Inputl.value += '1'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calcl.Inputl.value += '2'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calcl.Inputl.value += '3'" style="background-color: #DEDEFF">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calcl.Inputl.value += '4'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calcl.Inputl.value += '5'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calcl.Inputl.value += '6'" style="background-color: #DEDEFF">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calcl.Inputl.value += '7'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calcl.Inputl.value += '8'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calcl.Inputl.value += '9'" style="background-color: #DEDEFF">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calcl.Inputl.value = ''" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calcl.Inputl.value += '0'" style="background-color: #DEDEFF">
+						 <br>
+						 <br>
+						 
+						 <INPUT TYPE="button" NAME="enter" VALUE=" Hasil " OnCLick="Calcl.hasill.value = (22/7*Calcl.Inputl.value*Calcl.Inputl.value)" style="background-color: #DEDEFF">			
+						 <br>
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+						<INPUT TYPE="text" NAME="hasill" Size="40" style="background-color: #DEDEFF">
+						<br>
+					</TD>
+				</TR>
+			</TABLE>
+		</FORM>
+
+		<!Luas Trapesium>
+		<FORM NAME="Calct">
+			<TABLE BORDER=10>
+				<TR>
+					<TD style="background-color: #CFFFCF">
+					<center>Kalkulator Luas Trapesium (0.5 x (a+b) x t)</center>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #CFFFCF">
+						a+b = <INPUT TYPE="text" NAME="Inputt" Size="34" style="background-color: #E3FFE3">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #CFFFCF">
+						Tinggi = <INPUT TYPE="text" NAME="Inputtt" Size="31" style="background-color: #E3FFE3">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #CFFFCF">
+						a+b.............................Tinggi<br>
+						 <INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calct.Inputt.value += '1'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calct.Inputt.value += '2'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calct.Inputt.value += '3'" style="background-color: #E3FFE3">
+						
+						 ..........<INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calct.Inputtt.value += '1'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calct.Inputtt.value += '2'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calct.Inputtt.value += '3'" style="background-color: #E3FFE3">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calct.Inputt.value += '4'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calct.Inputt.value += '5'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calct.Inputt.value += '6'" style="background-color: #E3FFE3">
+						
+						 ..........<INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calct.Inputtt.value += '4'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calct.Inputtt.value += '5'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calct.Inputtt.value += '6'" style="background-color: #E3FFE3">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calct.Inputt.value += '7'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calct.Inputt.value += '8'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calct.Inputt.value += '9'" style="background-color: #E3FFE3">
+					   
+						 ..........<INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calct.Inputtt.value += '7'" style="background-color: #E3FFE3"> 
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calct.Inputtt.value += '8'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calct.Inputtt.value += '9'" style="background-color: #E3FFE3">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calct.Inputt.value = ''" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calct.Inputt.value += '0'" style="background-color: #E3FFE3">
+						 
+						 ...................<INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calct.Inputtt.value = ''" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calct.Inputtt.value += '0'" style="background-color: #E3FFE3">
+						 <br>
+						 <br>
+						 
+						 <INPUT TYPE="button" NAME="enter" VALUE=" Hasil " OnCLick="Calct.hasilt.value = (0.5*Calct.Inputt.value*Calct.Inputtt.value)" style="background-color: #E3FFE3">			
+						 <br>
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+						<INPUT TYPE="text" NAME="hasilt" Size="40" style="background-color: #E3FFE3">
+						<br>
+					</TD>
+				</TR>
+			</TABLE>
+		</FORM>
+
+		<!Luas Jajargenjang>
+		<FORM NAME="Calcj">
+			<TABLE BORDER=10>
+				<TR>
+					<TD style="background-color: #FFCCCC">
+					<center>Kalkulator Luas Jajargenjang (a x t)</center>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFCCCC">
+						Alas = <INPUT TYPE="text" NAME="Inputj" Size="33" style="background-color: #FFDBDB">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFCCCC">
+						Tinggi = <INPUT TYPE="text" NAME="Inputjj" Size="31" style="background-color: #FFDBDB">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFCCCC">
+						Alas.............................Tinggi<br>
+						 <INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calcj.Inputj.value += '1'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calcj.Inputj.value += '2'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calcj.Inputj.value += '3'" style="background-color: #FFDBDB">
+						
+						 ..........<INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calcj.Inputjj.value += '1'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calcj.Inputjj.value += '2'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calcj.Inputjj.value += '3'" style="background-color: #FFDBDB">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calcj.Inputj.value += '4'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calcj.Inputj.value += '5'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calcj.Inputj.value += '6'" style="background-color: #FFDBDB">
+						
+						 ..........<INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calcj.Inputjj.value += '4'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calcj.Inputjj.value += '5'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calcj.Inputjj.value += '6'" style="background-color: #FFDBDB">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calcj.Inputj.value += '7'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calcj.Inputj.value += '8'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calcj.Inputj.value += '9'" style="background-color: #FFDBDB">
+					   
+						 ..........<INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calcj.Inputjj.value += '7'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calcj.Inputjj.value += '8'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calcj.Inputjj.value += '9'" style="background-color: #FFDBDB">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calcj.Inputj.value = ''" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calcj.Inputj.value += '0'" style="background-color: #FFDBDB">
+						 
+						 ...................<INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calcj.Inputjj.value = ''" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calcj.Inputjj.value += '0'" style="background-color: #FFDBDB">
+						 <br>
+						 <br>
+						 
+						 <INPUT TYPE="button" NAME="enter" VALUE=" Hasil " OnCLick="Calcj.hasilj.value = (Calcj.Inputj.value*Calcj.Inputjj.value)" style="background-color: #FFDBDB">			
+						 <br>
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+						<INPUT TYPE="text" NAME="hasilj" Size="40" style="background-color: #FFDBDB">
+						<br>
+					</TD>
+				</TR>
+			</TABLE>
+		</FORM>
+
+		<!Luas Layang-Layang>
+		<FORM NAME="Cal">
+			<TABLE BORDER=10>
+				<TR>
+					<TD style="background-color: #FFDAB9">
+					<center>Kalkulator Luas Layang-Layang (0.5 x d<sub>1</sub> x d<sub>2</sub>)</center>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFDAB9">
+						Diagonal 1 = <INPUT TYPE="text" NAME="Inpul" Size="27" style="background-color: #FFEFD5">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFDAB9">
+						Diagonal 2 = <INPUT TYPE="text" NAME="Inpull" Size="27" style="background-color: #FFEFD5">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFDAB9">
+						Diagonal 1..................Diagonal 2<br>
+						 <INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Cal.Inpul.value += '1'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Cal.Inpul.value += '2'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Cal.Inpul.value += '3'" style="background-color: #FFEFD5">
+						 
+						 ..........<INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Cal.Inpull.value += '1'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Cal.Inpull.value += '2'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Cal.Inpull.value += '3'" style="background-color: #FFEFD5">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Cal.Inpul.value += '4'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Cal.Inpul.value += '5'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Cal.Inpul.value += '6'" style="background-color: #FFEFD5">
+						
+						 ..........<INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Cal.Inpull.value += '4'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Cal.Inpull.value += '5'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Cal.Inpull.value += '6'" style="background-color: #FFEFD5">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Cal.Inpul.value += '7'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Cal.Inpul.value += '8'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Cal.Inpul.value += '9'" style="background-color: #FFEFD5">
+					   
+						 ..........<INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Cal.Inpull.value += '7'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Cal.Inpull.value += '8'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Cal.Inpull.value += '9'" style="background-color: #FFEFD5">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Cal.Inpul.value = ''" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Cal.Inpul.value += '0'" style="background-color: #FFEFD5">
+						 
+						 ...................<INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Cal.Inpull.value = ''" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Cal.Inpull.value += '0'" style="background-color: #FFEFD5">
+						 <br>
+						 <br>
+						 
+						 <INPUT TYPE="button" NAME="enter" VALUE=" Hasil " OnCLick="Cal.hasilll.value = (0.5*Cal.Inpul.value*Cal.Inpull.value)" style="background-color: #FFEFD5">			
+						 <br>
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+						<INPUT TYPE="text" NAME="hasilll" Size="40" style="background-color: #FFEFD5">
+						<br>
+					</TD>
+				</TR>
+			</TABLE>
+		</FORM>
+
+		<!Volume Balok>
+		<FORM NAME="Calv">
+			<TABLE BORDER=10>
+				<TR>
+					<TD style="background-color: #C9C9FF">
+					<center>Kalkulator Volume Balok (p x l x t)</center>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #C9C9FF">
+						Panjang = <INPUT TYPE="text" NAME="Inputv" Size="41" style="background-color: #DEDEFF">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #C9C9FF">
+						Lebar = <INPUT TYPE="text" NAME="Inputvv" Size="43" style="background-color: #DEDEFF">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #C9C9FF">
+						Tinggi = <INPUT TYPE="text" NAME="Inputvvv" Size="42" style="background-color: #DEDEFF">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #C9C9FF">
+						Panjang.......................Lebar...........................Tinggi<br>
+						 <INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calv.Inputv.value += '1'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calv.Inputv.value += '2'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calv.Inputv.value += '3'" style="background-color: #DEDEFF">
+						
+						 ..........<INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calv.Inputvv.value += '1'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calv.Inputvv.value += '2'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calv.Inputvv.value += '3'" style="background-color: #DEDEFF">
+						 
+						 ..........<INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calv.Inputvvv.value += '1'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calv.Inputvvv.value += '2'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calv.Inputvvv.value += '3'" style="background-color: #DEDEFF">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calv.Inputv.value += '4'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calv.Inputv.value += '5'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calv.Inputv.value += '6'" style="background-color: #DEDEFF">
+						
+						 ..........<INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calv.Inputvv.value += '4'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calv.Inputvv.value += '5'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calv.Inputvv.value += '6'" style="background-color: #DEDEFF">
+						 
+						 ..........<INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calv.Inputvvv.value += '4'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calv.Inputvvv.value += '5'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calv.Inputvvv.value += '6'" style="background-color: #DEDEFF">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calv.Inputv.value += '7'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calv.Inputv.value += '8'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calv.Inputv.value += '9'" style="background-color: #DEDEFF">
+					   
+						 ..........<INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calv.Inputvv.value += '7'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calv.Inputvv.value += '8'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calv.Inputvv.value += '9'" style="background-color: #DEDEFF">
+						 
+						 ..........<INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calv.Inputvvv.value += '7'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calv.Inputvvv.value += '8'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calv.Inputvvv.value += '9'" style="background-color: #DEDEFF">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calv.Inputv.value = ''" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calv.Inputv.value += '0'" style="background-color: #DEDEFF">
+						 
+						 ...................<INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calv.Inputvv.value = ''" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calv.Inputvv.value += '0'" style="background-color: #DEDEFF">
+						 
+						 ...................<INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calv.Inputvvv.value = ''" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calv.Inputvvv.value += '0'" style="background-color: #DEDEFF">
+						 <br>
+						 <br>
+						 
+						 <INPUT TYPE="button" NAME="enter" VALUE=" Hasil " OnCLick="Calv.hasilv.value = (Calv.Inputv.value*Calv.Inputvv.value*Calv.Inputvvv.value)" style="background-color: #DEDEFF">		
+						 <br>
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+						<INPUT TYPE="text" NAME="hasilv" Size="51" style="background-color: #DEDEFF">
+						<br>
+					</TD>
+				</TR>
+			</TABLE>
+		</FORM>
+
+		<!Volume Bola>
+		<FORM NAME="Calvb">
+			<TABLE BORDER=10>
+				<TR>
+					<TD style="background-color: #CFFFCF">
+					<center>Kalkulator Volume Bola (4/3 x phi x r<sup>3</sup>)</center>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #CFFFCF">
+						Jari-Jari = <INPUT TYPE="text" NAME="Inputvb" Size="41" style="background-color: #E3FFE3">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #CFFFCF">
+						Jari-Jari<br>
+						 <INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calvb.Inputvb.value += '1'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calvb.Inputvb.value += '2'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calvb.Inputvb.value += '3'" style="background-color: #E3FFE3">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calvb.Inputvb.value += '4'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calvb.Inputvb.value += '5'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calvb.Inputvb.value += '6'" style="background-color: #E3FFE3">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calvb.Inputvb.value += '7'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calvb.Inputvb.value += '8'" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calvb.Inputvb.value += '9'" style="background-color: #E3FFE3">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calvb.Inputvb.value = ''" style="background-color: #E3FFE3">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calvb.Inputvb.value += '0'" style="background-color: #E3FFE3">
+						 <br>
+						 <br>
+						 
+						 <INPUT TYPE="button" NAME="enter" VALUE=" Hasil " OnCLick="Calvb.hasilvb.value = (4/3*22/7*Calvb.Inputvb.value*Calvb.Inputvb.value*Calvb.Inputvb.value)" style="background-color: #E3FFE3">		
+						 <br>
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+						<INPUT TYPE="text" NAME="hasilvb" Size="51" style="background-color: #E3FFE3">
+						<br>
+					</TD>
+				</TR>
+			</TABLE>
+		</FORM>
+		
+		<!Volume Tabung>
+		<FORM NAME="Calvt">
+			<TABLE BORDER=10>
+				<TR>
+					<TD style="background-color: #FFCCCC">
+					<center>Kalkulator Volume Tabung (phi x r<sup>2</sup> x t)</center>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFCCCC">
+						Jari-Jari = <INPUT TYPE="text" NAME="Inputvt" Size="41" style="background-color: #FFDBDB">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFCCCC">
+						Tinggi = <INPUT TYPE="text" NAME="Inputvvt" Size="42" style="background-color: #FFDBDB">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFCCCC">
+						Jari-Jari.......................Tinggi<br>
+						 <INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calvt.Inputvt.value += '1'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calvt.Inputvt.value += '2'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calvt.Inputvt.value += '3'" style="background-color: #FFDBDB">
+						
+						 ..........<INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calvt.Inputvvt.value += '1'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calvt.Inputvvt.value += '2'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calvt.Inputvvt.value += '3'" style="background-color: #FFDBDB">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calvt.Inputvt.value += '4'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calvt.Inputvt.value += '5'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calvt.Inputvt.value += '6'" style="background-color: #FFDBDB">
+						
+						 ..........<INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calvt.Inputvvt.value += '4'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calvt.Inputvvt.value += '5'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calvt.Inputvvt.value += '6'" style="background-color: #FFDBDB">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calvt.Inputvt.value += '7'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calvt.Inputvt.value += '8'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calvt.Inputvt.value += '9'" style="background-color: #FFDBDB">
+					   
+						 ..........<INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calvt.Inputvvt.value += '7'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calvt.Inputvvt.value += '8'" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calvt.Inputvvt.value += '9'" style="background-color: #FFDBDB">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calvt.Inputvt.value = ''" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calvt.Inputvt.value += '0'" style="background-color: #FFDBDB">
+						 
+						 ...................<INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calvt.Inputvvt.value = ''" style="background-color: #FFDBDB">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calvt.Inputvvt.value += '0'" style="background-color: #FFDBDB">
+						 <br>
+						 <br>
+						 
+						 <INPUT TYPE="button" NAME="enter" VALUE=" Hasil " OnCLick="Calvt.hasilvt.value = (22/7*Calvt.Inputvt.value*Calvt.Inputvt.value*Calvt.Inputvvt.value)" style="background-color: #FFDBDB">		
+						 <br>
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+						<INPUT TYPE="text" NAME="hasilvt" Size="51" style="background-color: #FFDBDB">
+						<br>
+					</TD>
+				</TR>
+			</TABLE>
+		</FORM>
+	
+		<!Volume Prisma>
+		<FORM NAME="Calvp">
+			<TABLE BORDER=10>
+				<TR>
+					<TD style="background-color: #FFDAB9">
+					<center>Kalkulator Volume Prisma (La x t)</center>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFDAB9">
+						Luas Alas = <INPUT TYPE="text" NAME="Inputvp" Size="39" style="background-color: #FFEFD5">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFDAB9">
+						Tinggi = <INPUT TYPE="text" NAME="Inputvvp" Size="42" style="background-color: #FFEFD5">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #FFDAB9">
+						Luas Alas....................Tinggi<br>
+						 <INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calvp.Inputvp.value += '1'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calvp.Inputvp.value += '2'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calvp.Inputvp.value += '3'" style="background-color: #FFEFD5">
+						
+						 ..........<INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calvp.Inputvvp.value += '1'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calvp.Inputvvp.value += '2'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calvp.Inputvvp.value += '3'" style="background-color: #FFEFD5">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calvp.Inputvp.value += '4'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calvp.Inputvp.value += '5'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calvp.Inputvp.value += '6'" style="background-color: #FFEFD5">
+						
+						 ..........<INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calvp.Inputvvp.value += '4'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calvp.Inputvvp.value += '5'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calvp.Inputvvp.value += '6'" style="background-color: #FFEFD5">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calvp.Inputvp.value += '7'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calvp.Inputvp.value += '8'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calvp.Inputvp.value += '9'" style="background-color: #FFEFD5">
+					   
+						 ..........<INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calvp.Inputvvp.value += '7'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calvp.Inputvvp.value += '8'" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calvp.Inputvvp.value += '9'" style="background-color: #FFEFD5">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calvp.Inputvp.value = ''" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calvp.Inputvp.value += '0'" style="background-color: #FFEFD5">
+						 
+						 ...................<INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calvp.Inputvvp.value = ''" style="background-color: #FFEFD5">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calvp.Inputvvp.value += '0'" style="background-color: #FFEFD5">
+						 <br>
+						 <br>
+						 
+						 <INPUT TYPE="button" NAME="enter" VALUE=" Hasil " OnCLick="Calvp.hasilvp.value = (Calvp.Inputvp.value*Calvp.Inputvvp.value)" style="background-color: #FFEFD5">		
+						 <br>
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+						<INPUT TYPE="text" NAME="hasilvp" Size="50" style="background-color: #FFEFD5">
+						<br>
+					</TD>
+				</TR>
+			</TABLE>
+		</FORM>
+	
+		<!Volume Kerucut & Limas>
+		<FORM NAME="Calvkl">
+			<TABLE BORDER=10>
+				<TR>
+					<TD style="background-color: #C9C9FF">
+					<center>Kalkulator Volume Kerucut & Limas (1/3 x La x t)</center>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #C9C9FF">
+						Luas Alas = <INPUT TYPE="text" NAME="Inputvkl" Size="39" style="background-color: #DEDEFF">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #C9C9FF">
+						Tinggi = <INPUT TYPE="text" NAME="Inputvvkl" Size="42" style="background-color: #DEDEFF">
+						<br>
+					</TD>
+				</TR>
+				<TR>
+					<TD style="background-color: #C9C9FF">
+						Luas Alas....................Tinggi<br>
+						 <INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calvkl.Inputvkl.value += '1'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calvkl.Inputvkl.value += '2'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calvkl.Inputvkl.value += '3'" style="background-color: #DEDEFF">
+						
+						 ..........<INPUT TYPE="button" NAME="one" VALUE=" 1 " OnClick="Calvkl.Inputvvkl.value += '1'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="two" VALUE=" 2 " OnCLick="Calvkl.Inputvvkl.value += '2'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="three" VALUE=" 3 " OnClick="Calvkl.Inputvvkl.value += '3'" style="background-color: #DEDEFF"> 
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calvkl.Inputvkl.value += '4'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calvkl.Inputvkl.value += '5'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calvkl.Inputvkl.value += '6'" style="background-color: #DEDEFF">
+						
+						 ..........<INPUT TYPE="button" NAME="four" VALUE=" 4 " OnClick="Calvkl.Inputvvkl.value += '4'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="five" VALUE=" 5 " OnCLick="Calvkl.Inputvvkl.value += '5'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="six" VALUE=" 6 " OnClick="Calvkl.Inputvvkl.value += '6'" style="background-color: #DEDEFF">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calvkl.Inputvkl.value += '7'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calvkl.Inputvkl.value += '8'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calvkl.Inputvkl.value += '9'" style="background-color: #DEDEFF">
+					   
+						 ..........<INPUT TYPE="button" NAME="seven" VALUE=" 7 " OnClick="Calvkl.Inputvvkl.value += '7'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="eight" VALUE=" 8 " OnCLick="Calvkl.Inputvvkl.value += '8'" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="nine" VALUE=" 9 " OnClick="Calvkl.Inputvvkl.value += '9'" style="background-color: #DEDEFF">
+						 <br>
+						
+						 <INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calvkl.Inputvkl.value = ''" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calvkl.Inputvkl.value += '0'" style="background-color: #DEDEFF">
+						 
+						 ...................<INPUT TYPE="button" NAME="clear" VALUE=" c " OnClick="Calvkl.Inputvvkl.value = ''" style="background-color: #DEDEFF">
+						 <INPUT TYPE="button" NAME="zero" VALUE=" 0 " OnClick="Calvkl.Inputvvkl.value += '0'" style="background-color: #DEDEFF">
+						 <br>
+						 <br>
+						 
+						 <INPUT TYPE="button" NAME="enter" VALUE=" Hasil " OnCLick="Calvkl.hasilvkl.value = (1/3*Calvkl.Inputvkl.value*Calvkl.Inputvvkl.value)" style="background-color: #DEDEFF">		
+						 <br>
+					</TD>
+				</TR>
+				<TR>
+					<TD>
+						<INPUT TYPE="text" NAME="hasilvkl" Size="50" style="background-color: #DEDEFF">
+						<br>
+					</TD>
+				</TR>
+			</TABLE>
+		</FORM>
+	</body>
+</html>
